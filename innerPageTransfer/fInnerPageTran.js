@@ -1,4 +1,20 @@
-
+//tag module 'tagid'   
+//corresponding module 'corres-tagid'  
+//////////////////////////////////////////////////////////////////////////////////////////////  
+//The styles of activeTagID class and corresActTagID class should be writen in css file. Eg.//  
+//                   .activeTagID{                                                          //  
+//                      color: var(--primary-blue);                                         //  
+//                    }                                                                     //  
+//                                                                                          //  
+//                   .corresActTagID{                                                       //  
+//                      display: flex;                                                      //  
+//                      flex-direction: column;                                             //  
+//                      margin-left: 1rem;                                                  //  
+//                      align-items: flex-start;                                            //  
+//                      justify-content: flex-start;                                        //  
+//                      flex: 70%;                                                          //  
+//                    }                                                                     //  
+////////////////////////////////////////////////////////////////////////////////////////////// 
 
 //select the DOM contains all the single tags
 const tranContent = document.querySelector('ul.sideBar-classifications');
