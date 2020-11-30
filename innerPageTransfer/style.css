@@ -1,0 +1,46 @@
+/* basic style */
+:root{
+  --primary-blue:red;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 10vw;
+}
+.container .sideBar{
+  flex: 1;
+}
+.container .sideBar ul{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.container .sideBar ul li{
+  flex: 1;
+  width: 100%;
+  text-align: center;
+}
+
+.container .sideBar ul li:hover{
+  cursor: pointer;
+}
+
+/* show off all the content first */
+.content{
+  display: none;
+}
+/* define the style of active DOM id here */
+.currTag{
+  color: var(--primary-blue);
+}
+/* show corresponding DOM which has the corresActID */
+.container .currContent{
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+}
