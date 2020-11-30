@@ -7,7 +7,6 @@
 
 //tag module 'tagid' 
 //corresponding module 'corres-tagid'
-
 //////////////////////////////////////////////////////////////////////////////////////////////
 //The styles of activeTagID class and corresActTagID class should be writen in css file. Eg.// 
 //                   .activeTagID{                                                          //
